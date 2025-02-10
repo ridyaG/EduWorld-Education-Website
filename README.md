@@ -1,26 +1,37 @@
-# EduWorld-Education-Website
+# EduWorld - Education Website & Management System
 
-Coaching Website and Management System that was submitted as a part of my assignment for an internship application during my Summer Break of 2022.
+EduWorld is a **Coaching Website and Management System** developed as part of an internship application during my **Summer Break of 2022**. The project was built to manage students, teachers, and administrators efficiently.
 
-It consists of multiple user types and their different actions. Technologies used were PHP/MYSQL and HTML, Javascript, and Bootstrap framework for Front-End.
+## 🛠️ Technologies Used:
+- **Back-End:** PHP, MySQL
+- **Front-End:** HTML, JavaScript, Bootstrap
 
-Here was the problem statement -
+## 📌 Features:
 
-a) You have to develop a project with three user types -
+### 👤 **User Roles:**
+1. **Admin**
+   - Manages students and teachers (CRUD operations)
+   - Assigns teachers to multiple students (one-to-many)
+   - Reviews and approves/rejects student applications
 
-i) Teacher.
+2. **Teacher**
+   - Logs in using credentials created by the admin
+   - Views assigned students
+   - Manages and assigns subjects to students
 
-ii) Student.
+3. **Student**
+   - Logs in using credentials provided by the admin
+   - Views the assigned teacher
+   - Accesses subjects assigned by the teacher
 
-iii) Admin.
+## 🔹 **Core Functionalities:**
+- **User Authentication**: Secure login for Admin, Teachers, and Students.
+- **Student-Teacher Assignment**: Admin assigns teachers to students via a multiple-selection interface.
+- **Subject Management**: Teachers can create, edit, and assign subjects to students.
+- **Application Handling**: Admin can review and manage student applications.
 
-b) Admin can login and can CRUD (create, read, update and delete) students as well as teachers by adding their phone number, name, email address and password. Admin can then assign a teacher to multiple students (one to many relationships) by using multiple selections (checkbox).
+This project demonstrates my ability to build **role-based user management systems** and handle **CRUD operations** effectively. 🚀
 
-c) Teachers can then login using password and email id that admin created for them. When the teacher logs in, he will see the students assigned to him (multiple students).
+---
 
-d) Students can also login to the account created by the admin for him and he will then see the teacher that has been assigned to him.
-
-e) Add a field called subjects. Teachers can CRUD subjects as well and assign different subjects to the students assigned to him. So when the student logs in, he will be able to see the various subjects that the teacher will assign to him.
-
-e) Admin can login and check if new students have applied to enroll for a particular course and have the ability accept/reject their application based on their credentials.
-
+If you have any suggestions or improvements, feel free to contribute! 😊
